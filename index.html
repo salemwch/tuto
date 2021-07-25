@@ -1,0 +1,440 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>shopping cart</title>
+    <!-- css file link -->
+    <link rel="stylesheet" href="style.css">
+
+    <!-- font awesome icon cdn -->
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+<body>
+    <nav>
+        <div class="nav-responsive">
+        <img src="img/phone.jpg" alt="img" class="logo" id="logo">
+        <div class="nav-search">
+            <a href="#"><i class="fa fa-search" id="find"></i></a>
+            <input type="text" id="search" placeholder="search you items,brands">
+        </div>
+        <div class="access">
+            <a href="#" id="notification"><i class="fa fa-bell"></i>
+            </a>
+            <a href="#" id="cart"><i class="fa fa-shopping-cart"></i>
+            </a>
+            <a href="#" id="bars"><i class="fa fa-bars"></i>
+            </a>
+            <a href="#" id="account"><i class="fa fa-user-circle-o"></i>
+            </a>
+        </div>
+        </div>
+    </nav>
+
+    <!--main section-->
+    <div id="main">
+        <!--categories section -->
+        <div id="categories">
+            <div class="brand">
+                <div class="img-container">
+                    <img src="img/nokia 9.jpg" alt="img"
+                    class="brand-img">
+                </div>
+                <h4 id="brand-name">nokia9</h4>
+            </div>
+            <div class="brand">
+                <div class="img-container">
+                    <img src="img/nokia 10.jpg" alt="img"
+                    class="brand-img">
+                </div>
+                <h4 id="brand-name">nokia10 </h4>
+            </div>
+            <div class="brand">
+                <div class="img-container">
+                    <img src="img/oppo f11.jpg" alt="img"
+                    class="brand-img">
+                </div>
+                <h4 id="brand-name">oppof11 </h4>
+            </div>
+            <div class="brand">
+                <div class="img-container">
+                    <img src="img/samsung s20.jpg" alt="img"
+                    class="brand-img">
+                </div>
+                <h4 id="brand-name">samsung s20 </h4>
+            </div>
+            <div class="brand">
+                <div class="img-container">
+                    <img src="img/infinix not 7.jpg" alt="img"
+                    class="brand-img">
+                </div>
+                <h4 id="brand-name">infinix not 7 </h4>
+            </div>
+            <div class="brand">
+                <div class="img-container">
+                    <img src="img/samsung a30.jpg" alt="img"
+                    class="brand-img">
+                </div>
+                <h4 id="brand-name">samsung a30</h4>
+            </div>
+            <div class="brand">
+                <div class="img-container">
+                    <img src="img/samsung s10.jpg" alt="img"
+                    class="brand-img">
+                </div>
+                <h4 id="brand-name">samsung s10 </h4>
+            </div>
+            <div class="brand">
+                <div class="img-container">
+                    <img src="img/infinix hot 9.jpg" alt="img"
+                    class="brand-img">
+                </div>
+                <h4 id="brand-name">infinix hot9</h4>
+            </div>
+            <div class="brand">
+                <div class="img-container">
+                    <img src="img/infinix zero 8.jpg" alt="img"
+                    class="brand-img">
+                </div>
+                <h4 id="brand-name">infinix zero8 </h4>
+            </div>
+        </div>
+        <!-- end of categories section -->
+        
+        
+        <!-- all categories-->
+        <section class="categories">
+            <div class="title-container">
+                <h1 id="title">latest phones</h1>
+                <button type="button" id="item-btn">view all </button>
+            </div>
+            <div class="card">
+                    <div class="item-container" id="0">
+                    <div class="card-item">
+                        <img src="img/infinix not 7.jpg" alt="img"
+                        id="card-img"> 
+                        <p id="item-name">infinix not7 (flame blue, 6gb ram,128gb storage)  </p>
+                    </div>
+                    <i id="add-to-cart" class="fa fa-shopping-cart"></i>
+                    <h3 id="item-price">price: $250</h3>
+                    </div>
+                    <div class="item-container" id="1">
+                        <div class="card-item">
+                        <img src="img/huwaei mate 30 pro.jpg" alt="img"
+                        id="card-img"> 
+                        <p id="item-name">huwaei mate 30 pro 5g 110 mega pixelle </p>
+                        </div>
+                        <i id="add-to-cart" class="fa fa-shopping-cart"></i>
+                        <h3 id="item-price">price: $450</h3>
+                    </div>
+                    <div class="item-container" id="2">
+                        <div class="card-item">
+                        <img src="img/samsung s20.jpg" alt="img"
+                        id="card-img"> 
+                        <p id="item-name">samsung S20 6gb ram, 128gb storage </p>
+                        </div>
+                        <i id="add-to-cart" class="fa fa-shopping-cart"></i>
+                        <h3 id="item-price">price: $550</h3>
+                    </div>
+                    <div class="item-container" id="3">
+                        <div class="card-item">
+                        <img src="img/infinix zero 8.jpg" alt="img"
+                        id="card-img"> 
+                        <p id="item-name">infinix  5g 8gb ram 150gb storage </p>
+                        </div>
+                        <i id="add-to-cart" class="fa fa-shopping-cart"></i>
+                        <h3 id="item-price">price: $650</h3>
+                    </div>
+                </div>
+        </section>
+        
+        <!-- redmi phones -->
+        <section class="categories">
+            <div class="title-container">
+                <h1 id="title">redmi phones</h1>
+                <button type="button" id="item-btn">view all </button>
+            </div>
+            <div class="card">
+                    <div class="item-container" id="4">
+                    <div class="card-item">
+                        <img src="img/redmi 10X pro.jpg " alt="img"
+                        id="card-img"> 
+                        <p id="item-name">redmi 10X pro 5g (  8gb ram,90gb storage 80mega pixelle )  </p>
+                    </div>
+                    <i id="add-to-cart" class="fa fa-shopping-cart"></i>
+                    <h3 id="item-price">price: $200</h3>
+                    </div>
+                    <div class="item-container" id="5">
+                        <div class="card-item">
+                        <img src="img/redmi k30.jpg" alt="img"
+                        id="card-img"> 
+                        <p id="item-name">redmi k30 pro  12gb ram 150gb 120 mega pixelle </p>
+                        </div>
+                        <i id="add-to-cart" class="fa fa-shopping-cart"></i>
+                        <h3 id="item-price">price: $500</h3>
+                    </div>
+                    <div class="item-container" id="6">
+                        <div class="card-item">
+                        <img src="img/redmi note 10.jpg" alt="img"
+                        id="card-img"> 
+                        <p id="item-name">redmi note 10  6gb ram, 128gb storage </p>
+                        </div>
+                        <i id="add-to-cart" class="fa fa-shopping-cart"></i>
+                        <h3 id="item-price">price: $600</h3>
+                    </div>
+                    <div class="item-container" id="7">
+                        <div class="card-item">
+                        <img src="img/redmi note 9 pro.jpg" alt="img"
+                        id="card-img"> 
+                        <p id="item-name">redmi note 9 pro  5g 8gb ram 150gb storage </p>
+                        </div>
+                        <i id="add-to-cart" class="fa fa-shopping-cart"></i>
+                        <h3 id="item-price">price: $700</h3>
+                    </div>
+                </div>
+        </section>
+        <!--end of redmi phones -->
+        
+        <!-- realme phones -->
+        <section class="categories">
+            <div class="title-container">
+                <h1 id="title">realme phones</h1>
+                <button type="button" id="item-btn">view all </button>
+            </div>
+            <div class="card">
+                    <div class="item-container" id="8">
+                    <div class="card-item">
+                        <img src="img/realme 5 pro.jpg " alt="img"
+                        id="card-img"> 
+                        <p id="item-name"> realme pro 5g (  6gb ram,70gb storage 80mega pixelle )  </p>
+                    </div>
+                    <i id="add-to-cart" class="fa fa-shopping-cart"></i>
+                    <h3 id="item-price">price: $199</h3>
+                    </div>
+                    <div class="item-container" id="9">
+                        <div class="card-item">
+                        <img src="img/realme 5i.jpg" alt="img"
+                        id="card-img"> 
+                        <p id="item-name">realme 5i  8gb ram 100gb 120 mega pixelle </p>
+                        </div>
+                        <i id="add-to-cart" class="fa fa-shopping-cart"></i>
+                        <h3 id="item-price">price: $499</h3>
+                    </div>
+                    <div class="item-container" id="10">
+                        <div class="card-item">
+                        <img src="img/realme 7 pro.jpg" alt="img"
+                        id="card-img"> 
+                        <p id="item-name">realme  8gb ram, 128gb storage 100 mega pixelle </p>
+                        </div>
+                        <i id="add-to-cart" class="fa fa-shopping-cart"></i>
+                        <h3 id="item-price">price: $399</h3>
+                    </div>
+                    <div class="item-container" id="11">
+                        <div class="card-item">
+                        <img src="img/realme x2.jpg" alt="img"
+                        id="card-img"> 
+                        <p id="item-name">realme x2  10gb ram 123gb storage </p>
+                        </div>
+                        <i id="add-to-cart" class="fa fa-shopping-cart"></i>
+                        <h3 id="item-price">price: $699</h3>
+                    </div>
+                </div>
+        </section>
+        <!-- end of realme phones -->
+
+        <!-- oppo phones -->
+        <section class="categories">
+            <div class="title-container">
+                <h1 id="title">oppo phones</h1>
+                <button type="button" id="item-btn">view all </button>
+            </div>
+            <div class="card">
+                    <div class="item-container" id="12">
+                    <div class="card-item">
+                        <img src="img/oppo reno5.jpg " alt="img"
+                        id="card-img"> 
+                        <p id="item-name">oppo reno 5  5g (8gb ram,120gb storage 75 mega pixelle)  </p>
+                    </div>
+                    <i id="add-to-cart" class="fa fa-shopping-cart"></i>
+                    <h3 id="item-price">price: 265</h3>
+                    </div>
+                    <div class="item-container" id="13">
+                        <div class="card-item">
+                        <img src="img/oppo f9.jpg" alt="img"
+                        id="card-img"> 
+                        <p id="item-name">oppo f9  12gb ram 125gb 115 mega pixelle </p>
+                        </div>
+                        <i id="add-to-cart" class="fa fa-shopping-cart"></i>
+                        <h3 id="item-price">price: $385</h3>
+                    </div>
+                    <div class="item-container" id="14">
+                        <div class="card-item">
+                        <img src="img/oppo a 53.jpg" alt="img"
+                        id="card-img"> 
+                        <p id="item-name"> oppo a 53 9gb ram, 180gb storage 60 mega pixelle </p>
+                        </div>
+                        <i id="add-to-cart" class="fa fa-shopping-cart"></i>
+                        <h3 id="item-price">price: $520</h3>
+                    </div>
+                    <div class="item-container" id="15">
+                        <div class="card-item">
+                        <img src="img/oppo f 17.jpg" alt="img"
+                        id="card-img"> 
+                        <p id="item-name">oppo f 17 pro  5g 8gb ram 150gb storage 90 mega pixelle </p>
+                        </div>
+                        <i id="add-to-cart" class="fa fa-shopping-cart"></i>
+                        <h3 id="item-price">price: $715</h3>
+                    </div>
+                </div>
+        </section>
+        <!-- end of oppo phones -->
+        <!-- samsung phones -->
+        <section class="categories">
+            <div class="title-container">
+                <h1 id="title">samsung phones</h1>
+                <button type="button" id="item-btn">view all </button>
+            </div>
+            <div class="card">
+                    <div class="item-container" id="16">
+                    <div class="card-item">
+                        <img src="img/coque samsung A21s.jpg" alt="img"
+                        id="card-img"> 
+                        <p id="item-name">coque samsung A21s 5g (  8gb ram,90gb storage 80mega pixelle )  </p>
+                    </div>
+                    <i id="add-to-cart" class="fa fa-shopping-cart"></i>
+                    <h3 id="item-price">price: $799</h3>
+                    </div>
+                    <div class="item-container" id="17">
+                        <div class="card-item">
+                        <img src="img/samsung A71.jpg" alt="img"
+                        id="card-img"> 
+                        <p id="item-name">samsung A 71 12gb ram 142gb 99 mega pixelle </p>
+                        </div>
+                        <i id="add-to-cart" class="fa fa-shopping-cart"></i>
+                        <h3 id="item-price">price: $670</h3>
+                    </div>
+                    <div class="item-container" id="18">
+                        <div class="card-item">
+                        <img src="img/samsung A12.jpg" alt="img"
+                        id="card-img"> 
+                        <p id="item-name">samsung A 12 6gb ram, 128gb storage </p>
+                        </div>
+                        <i id="add-to-cart" class="fa fa-shopping-cart"></i>
+                        <h3 id="item-price">price: $899</h3>
+                    </div>
+                    <div class="item-container" id="19">
+                        <div class="card-item">
+                        <img src="img/samsung A51.jpg" alt="img"
+                        id="card-img"> 
+                        <p id="item-name">samsung A 51 pro  5g 10gb ram 160gb storage 120 mega pixelle </p>
+                        </div>
+                        <i id="add-to-cart" class="fa fa-shopping-cart"></i>
+                        <h3 id="item-price">price: $700</h3>
+                    </div>
+                </div>
+        </section>
+        <!-- end of samsung phones -->
+
+
+
+        <!-- footer section-->
+        <footer>
+            <p id="footer-title">our support team </p>
+            <div class="footer">
+                <div class="support">
+                    <ul>
+                        <h3>know about us</h3>
+                        <li a href="#" id="about">know Us</li>
+                        <li a href="#" id="refund-policy">refund policy</li>
+                        <li a href="#" id="policy">our policy</li>
+                        <li a href="#" id="return-product">how to return ?</li>
+                        <li a href="#" id="terms">terms & conditions  </li>
+                        <li a href="#" id="privacy">privacy policy</li>
+                    </ul>
+                </div>
+                <div class="social-media">
+                    <ul>
+                        <h3>contact Us </h3>
+                        <li><i class="fa fa-facebook"></i><a href="https://www.facebook.com/login/?cuid=AYgvBeTnMSYPU3f1f8DQxYgxrgwRXKmb9ESwbQJnI9wkQ_8_57FOQYlM2-21gJC5mpcrsLgfa3zwx5rBDxtYPi-D8oisWV7PvcFAgrEZiu42MQ&next&privacy_mutation_token=eyJ0eXBlIjowLCJjcmVhdGlvbl90aW1lIjoxNjI2ODc3MzQxLCJjYWxsc2l0ZV9pZCI6MzQzNjE1NzkwMjAxNjQ0fQ%3D%3D" id="facebook">facebook</a></li>
+                        <li><i class="fa fa-twitter"></i><a href="" id="twitter">twitter</a></li>
+                        <li><i class="fa fa-instagram"></i><a href="https://www.instagram.com/salem.wch/?hl=fr" id="instagram">instagram</a></li>
+                        <li><i class="fa fa-telegram"></i><a href="" id="telegram">telegram</a></li>
+                    </ul>
+                </div>
+                <div class="adress">
+                    <h3>office adress</h3>
+                    <p>msaken,messadine,rue de l'environnement </p>
+                    <p>tunisia,sousse,4013,</p>
+                    <p>phone num : +21655269401 +21653637001</p>
+                </div>
+            </div>
+
+            <div id="copyright">
+                <p>&#169 : 2020 MOBILEKART.COM. ALL RIGHTS RESERVED </p>
+            </div>
+        </footer>
+        <!-- end of footer section-->
+    </div>
+    <!-- end of main section -->
+
+
+    <!-- details page -->
+    <div id="details-page">
+        <div class="details">
+            <div class="items-detail">
+                <div class="image-container">
+                    <img src="img/samsung a 21.jpg" width="100" alt="img" id="details-img">
+                </div>
+                <div class="details-card">
+                    <h2 id="detail-title">samsung galaxy</h2>
+                    <h4 id="cart-price">price: $300</h4>
+                    <p id="you-save">you save :$20</p>
+                    <p id="delivery"><strong>
+                    delivery : </strong> in 3 - 4 days</p>
+                    <p id="spec"><strong>specification</strong>
+                    <ul>
+                        <li>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nulla vero, rem excepturi aspernatur quidem omnis fugiat, dolor corrupti porro deserunt mollitia suscipit reiciendis dolore sint velit eum distinctio ratione doloribus.</li>
+                        <li>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Vel architecto fuga recusandae, numquam cumque ratione.</li>
+                        <li>Lorem ipsum dolor sit amet consectetur adipisicing elit. Magnam atque minus, pariatur expedita quasi accusantium quia voluptatibus error.</li>
+                    </ul>
+                </p>
+                <button id="carts">ADD TO CART </button>
+                <button id="back">back</button>
+                </div>
+            </div>
+        </div>
+    </div> 
+    <!-- end of details page -->
+
+    <!-- cart list section -->
+    <div id="cart-container">
+        <p id="cart-title">Your <strong> cart</strong></p>
+        <div id="empty-cart">
+            <h1>Yout cart is empty . . . </h1>
+        </div>
+
+        <div id="cart-with-items">
+            <div class="cart-column">
+                <h3>products</h3>
+                <h3>products name </h3>
+                <h3>total</h3>
+                <h3>quantity</h3>
+                <h3>remove</h3>
+            </div>
+            <div id="item-body">
+
+            </div>
+            <div id="total">
+                <h3 id="total-items">quantity</h3>
+                <h2 id="total-amount">amount</h2>
+                <h3 id="you-saved">You saved</h3>
+            </div>
+        </div>
+    </div>
+    <!-- end of cart list section-->
+
+    <script src="main.js"> </script>
+</body>
+</html>
